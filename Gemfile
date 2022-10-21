@@ -6,6 +6,10 @@ source 'https://rubygems.org'
 
 gem 'bootsnap', require: false, platform: :mri
 
+# Radiant cron
+gem 'whenever', require: false
+gem 'httparty'
+
 def rails_master?
   ENV["RAILS_MASTER"] == '1'
 end
